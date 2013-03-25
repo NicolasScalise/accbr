@@ -1,0 +1,227 @@
+.hidden {
+    display: none;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 140px;
+    width: 100%;
+    background: #ffffff;
+    z-index: 1;
+}
+footer button.descargar-agenda {
+    border: none;
+    background: #cbd6e0;
+    float: right;
+    width: 176px;
+    margin-right: 28px;
+    height: 59px;
+    margin-top: 78px;
+    font-family: 'atrotissemisansregular';
+    color: #547797;
+    font-size: 15px;
+    line-height: 4;
+    display: block;
+}
+.iosSliderButtons {
+    margin: 78px 0 0 24px;
+    width: 376px;
+    height: 59px;
+    position: absolute;
+    z-index: 2;
+    font-family: 'atrotissemisansregular';
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.iosSliderButtons .button {
+    float: left;
+    margin: 0 4px 0 0;
+    width: 86px;
+    height: 59px;
+}
+.iosSliderButtons #item1 {
+    background: #547797;
+}
+
+.iosSliderButtons #item2 {
+    background: #547797;
+}
+
+.iosSliderButtons #item3 {
+    background: #547797;
+}
+
+.iosSliderButtons #item4 {
+    background: #547797;
+}
+.iosSliderButtons .first {
+    margin-left: 0;
+}
+
+.iosSliderButtons .selected,
+.iosSliderButtons .button:hover {
+    background: #d83c19 !important;
+}
+.iosSlider .slider .item1 {
+    background: #ffffff;
+}
+.iosSlider .slider .item2 {
+    background: #ffffff;
+}
+.iosSlider .slider .item3 {
+    background: #ffffff;
+}
+.iosSlider .slider .item4 {
+    background: #ffffff;
+}
+.iosSlider .slider .item1 section.home header,
+.iosSlider .slider .item4 section.descarga header,
+.iosSlider .slider .item3 section.sobre header,
+.iosSlider .slider .item2 section.agenda header {
+    background: transparent url('../img/header-agenda.jpg') scroll top left no-repeat;
+    height: 295px;
+    width: 100%;
+}
+.iosSlider .slider .item1 section.home header {
+    background: transparent url('../img/header-home.jpg') scroll top left no-repeat;
+}
+.iosSlider .slider .item4 section.descarga header {
+    background: transparent url('../img/header-descargas.jpg') scroll top left no-repeat;
+}
+.iosSlider .slider .item3 section.sobre header {
+    background: transparent url('../img/header-sobre.jpg') scroll top left no-repeat;
+}
+.iosSlider .slider .item4 section.descarga header p,
+.iosSlider .slider .item2 section.agenda header p {
+    margin: 220px 0 0 24px;
+    width: 540px;
+    position: absolute;
+    color: #284570;
+    font-family: 'atrotissemisansregular';
+    font-size: 18px;
+}
+.iosSlider .slider .item1 section.home header h1,
+.iosSlider .slider .item4 section.descarga header h1,
+.iosSlider .slider .item3 section.sobre header h1,
+.iosSlider .slider .item2 section.agenda header h1 {
+    margin: 170px 0 0 24px;
+    width: 540px;
+    position: absolute;
+    color: #284570;
+    font-family: 'atrotissemisans-extraboldRg';
+    font-size: 28px;
+    font-weight: normal;
+}
+.iosSlider .slider .item1 section.home header h1 {
+    width: 602px;
+    font-size: 26px;
+}
+.iosSlider .slider .item1 section.home .container {
+    background: transparent url('../img/pantalla-bienvenida-bg.jpg') scroll top center no-repeat;
+    width: 100%;
+    height: 494px;
+}
+.iosSlider .slider .item2 section.agenda .container button {
+    background: none;
+    border: none;
+    float: right;
+    margin: 5px 24px 0 0;
+    font-size: 25px;
+    color: #cbd6e0;
+    font-family: 'atrotissemisansregular';
+}
+.iosSlider .slider .item2 section.agenda .container button.active {
+    font-family: 'atrotissemisans-extraboldRg';
+    color: #547797;
+}
+.iosSlider .slider .item2 section.agenda .container .agenda-container {
+    width: 720px;
+    height: 458px;
+    margin: 0 24px 0 24px;
+    overflow: scroll;
+}
+.iosSlider .slider .item2 section.agenda .container .agenda-container .row {
+    width: 720px;
+}
+.iosSlider .slider .item2 section.agenda .container .agenda-container .row .col {
+    width: 176px;
+    float: left;
+    background-color: #cbd6e0;
+    height: 389px;
+    margin-right: 4px;
+    border-bottom: 4px solid #ffffff;
+}
+.iosSlider .slider .item2 section.agenda .container .agenda-container .row .col.especial {
+    background-color: #f3c4ba;
+}
+.iosSlider .slider .item2 section.agenda .container .agenda-container .row .col p {
+    background: #547797;
+    border-bottom: 4px solid #ffffff;
+    margin: 0;
+    padding: 15px 13px 15px 13px;
+    font-family: 'atrotissansserifregular';
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 17px;
+}
+.iosSlider .slider .item2 section.agenda .container .agenda-container .row .col.especial p {
+    background: #d83c19;
+}
+.iosSlider .slider .item2 section.agenda .container .agenda-container .row .col p span.fecha {
+    font-family: 'atrotissansserifregular';
+    font-size: 19px;
+    color: #bbe1ee;
+}
+.iosSlider .slider .item2 section.agenda .container .agenda-container .row .col p span.titulo {
+    font-family: 'atrotissansserif-boldregular';
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 17px;
+}
+.iosSlider .slider .item2 section.agenda .container .agenda-container .row .col.especial p span.fecha {
+    color: #ffffff;
+}
+.iosSlider .slider .item2 section.agenda .container .agenda-container .row .col.especial p span.titulo .lounch-holder {
+    margin: 0 10px;
+    height: 50px;
+    display: block;
+    float: left;
+}
+.iosSlider .slider .item3 section.sobre .container .cuadrado-naranja {
+    width: 100%;
+    height: 402px;
+    background: #d83c19;
+}
+.iosSlider .slider .item3 section.sobre .container .cuadrado-naranja p.acerca {
+    width: 308px;
+    margin: 40px 0 0 24px;
+    font-family: 'atrotissansserifregular'; 
+    font-size: 15px;
+    color: #ffffff;
+    float: left;
+}
+.iosSlider .slider .item3 section.sobre .container .cuadrado-naranja .play {
+    height: 100px;
+    width: 255px;
+    float: right;
+    margin: 120px 80px 0 0;    
+}
+.iosSlider .slider .item3 section.sobre .container .cuadrado-naranja .play button {
+    height: 62px;
+    width: 255px;
+    background: transparent url('../img/play-sobre.png') scroll top center no-repeat;
+    border: none;
+}
+.iosSlider .slider .item3 section.sobre .container .cuadrado-naranja .play p {
+    font-family: 'atrotissansserifregular'; 
+    font-size: 20px;
+    color: #ffffff;
+}
+.iosSlider .slider .item4 section.descarga .container .cuadrado-celeste {
+    width: 100%;
+    height: 402px;
+    background: #547797; 
+} 
