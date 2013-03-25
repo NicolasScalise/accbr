@@ -4,7 +4,7 @@
 footer {
     position: fixed;
     bottom: 0;
-    height: 140px;
+    height: 155px;
     width: 100%;
     background: #ffffff;
     z-index: 1;
@@ -16,7 +16,7 @@ footer button.descargar-agenda {
     width: 176px;
     margin-right: 28px;
     height: 59px;
-    margin-top: 78px;
+    margin-top: 92px;
     font-family: 'atrotissemisansregular';
     color: #547797;
     font-size: 15px;
@@ -24,7 +24,7 @@ footer button.descargar-agenda {
     display: block;
 }
 .iosSliderButtons {
-    margin: 78px 0 0 24px;
+    margin: 92px 0 0 24px;
     width: 376px;
     height: 59px;
     position: absolute;
@@ -122,7 +122,7 @@ footer button.descargar-agenda {
 .iosSlider .slider .item1 section.home .container {
     background: transparent url('../img/pantalla-bienvenida-bg.jpg') scroll top center no-repeat;
     width: 100%;
-    height: 494px;
+    height: 800px;
 }
 .iosSlider .slider .item2 section.agenda .container button {
     background: none;
@@ -150,7 +150,7 @@ footer button.descargar-agenda {
     width: 176px;
     float: left;
     background-color: #cbd6e0;
-    height: 389px;
+    height: 219px;
     margin-right: 4px;
     border-bottom: 4px solid #ffffff;
 }
@@ -192,8 +192,9 @@ footer button.descargar-agenda {
 }
 .iosSlider .slider .item3 section.sobre .container .cuadrado-naranja {
     width: 100%;
-    height: 402px;
+    height: 460px;
     background: #d83c19;
+    margin-top:35px;
 }
 .iosSlider .slider .item3 section.sobre .container .cuadrado-naranja p.acerca {
     width: 308px;
@@ -218,10 +219,14 @@ footer button.descargar-agenda {
 .iosSlider .slider .item3 section.sobre .container .cuadrado-naranja .play p {
     font-family: 'atrotissansserifregular'; 
     font-size: 20px;
-    color: #ffffff;
+    color: #ffffff;    
 }
 .iosSlider .slider .item4 section.descarga .container .cuadrado-celeste {
     width: 100%;
-    height: 402px;
+    height: 460px;
     background: #547797; 
+    margin-top:35px;
 } 
+footer.home {
+    background: transparent url('../img/pantalla-bienvenida-footer-bg.jpg') scroll top center no-repeat;
+}
